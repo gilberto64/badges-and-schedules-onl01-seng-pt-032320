@@ -21,11 +21,8 @@ end
 
 def printer(attendees)
   
-    attendees.each do |name| puts "Hello, my name is #{name}."
+    attendees.each do |name| print "Hello, my name is #{name}."
     end
     
-    room = 1
-    attendees.each do |name| room_assignments puts "Hello, #{name}! You'll be assigned to room #{room}!"  
-      room += 1
-    end 
+    
 end 
