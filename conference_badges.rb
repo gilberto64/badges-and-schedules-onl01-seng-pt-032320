@@ -19,7 +19,7 @@ def assign_rooms(attendees)
   room_assignments
 end
 
-def printer(attendees)
+def printer
   
     attendees.each do |name| puts "Hello, my name is #{name}."
     end
