@@ -20,7 +20,8 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  
-  attendees.each do |name| puts "Hello, my name is #{name}."
+  room = 1
+  attendees.each do |name| puts "Hello, #{name}! You'll be assigned to room #{room}!."
+  room +=1 
   end
 end 
